@@ -10,10 +10,10 @@
  **/
 
 // Exit if accessed directly
-if (!defined('ABSPATH')) {
-    exit;
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
 }
 
-require_once( plugin_dir_path( __FILE__ ) . 'includes/category-setup.php');
+require_once plugin_dir_path( __FILE__ ) . 'includes/category-setup.php';
 
 Primary_Category_Setup::run();
