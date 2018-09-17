@@ -1,22 +1,16 @@
 {
-  "name": "10up/tenup-scaffold",
-  "description": "10up Scaffold",
+  "name": "emontzka/erics-primary-category",
+  "description": "A Wordpress plugin for selecting a primary category for posts.",
   "authors": [
     {
-      "name": "Author",
-      "email": "info@10up.com"
+      "name": "Eric Montzka",
+      "email": "emontzka@sbcglobal.net"
     }
   ],
   "require": {
-    "php": ">=7.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "TenUpScaffold\\": "includes/classes/"
-    }
+    "php": ">=5.6"
   },
   "require-dev": {
-    "10up/wp_mock": "dev-dev",
     "10up/phpcs-composer": "dev-master"
   },
   "scripts": {
